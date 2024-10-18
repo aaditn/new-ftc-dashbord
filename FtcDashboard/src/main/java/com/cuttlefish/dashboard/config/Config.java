@@ -1,4 +1,4 @@
-package config;
+package com.cuttlefish.dashboard.config;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

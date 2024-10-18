@@ -21,6 +21,7 @@ import com.cuttlefish.dashboard.R;
 import com.cuttlefish.dashboard.RobotStatus;
 import com.cuttlefish.dashboard.SendFun;
 import com.cuttlefish.dashboard.SocketHandler;
+import com.cuttlefish.dashboard.config.Config;
 import com.cuttlefish.dashboard.config.ValueProvider;
 import com.cuttlefish.dashboard.config.reflection.ReflectionConfig;
 import com.cuttlefish.dashboard.config.variable.CustomVariable;
@@ -77,7 +78,6 @@ import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 
-import config.Config;
 import dalvik.system.DexFile;
 import fi.iki.elonen.NanoHTTPD;
 import fi.iki.elonen.NanoWSD;
