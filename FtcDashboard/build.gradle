@@ -120,7 +120,7 @@ def addPomDependencies(root) {
         return n
     }
 
-    addDep("com.acmerobotics.dashboard", "core", dashboard_version)
+    addDep("com.6165-MSET-Cuttlefish.dashboard++", "core", dashboard_version)
 
     ["RobotCore", "Hardware", "RobotServer", "FtcCommon"].forEach {
         addDep("org.firstinspires.ftc", it, min_sdk_version)
