@@ -1,12 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d8b7517-ed6a-477b-a739-65be09715ff4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/CustomVariableConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/SendFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/GetConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/GetRobotStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/StartOpMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/StopOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/CustomVariableConsumer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/DashboardCore$1$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/DashboardCore$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/DashboardCore$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/DashboardCore$TelemetryUpdateRunnable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/DashboardCore.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/Mutex$Fun.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/Mutex$UnitFun.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/Mutex.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/RobotStatus$OpModeStatus.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/RobotStatus.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/SendFun.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/SocketHandler.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Alpha.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Canvas.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/CanvasOp$Type.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/CanvasOp.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Circle.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Fill.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Grid.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Image.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Polygon.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Polyline.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Rotation.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Scale.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Spline.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Stroke.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/StrokeWidth.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Text.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/canvas/Translate.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/ConstantProvider.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/ValueProvider.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/reflection/ArrayProvider.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/reflection/FieldProvider.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/reflection/ReflectionConfig$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/reflection/ReflectionConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/BasicVariable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/ConfigVariable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/ConfigVariableSerializer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/CustomVariable.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/config/variable/VariableType.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/Message.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/MessageDeserializer.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/MessageType.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/GetConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/GetRobotStatus.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/InitOpMode.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState$Gamepad.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveImage.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveOpModeList.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveRobotStatus.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/ReceiveTelemetry.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/SaveConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/StartOpMode.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/message/redux/StopOpMode.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/.transforms/afe12d9069c8621dadb138c43bd5bdc9/transformed/main/com/acmerobotics/dashboard/telemetry/TelemetryPacket.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/CustomVariableConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/DashboardCore$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/DashboardCore$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/DashboardCore$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/DashboardCore$TelemetryUpdateRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/DashboardCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/Mutex$Fun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/Mutex$UnitFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/Mutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/RobotStatus$OpModeStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/RobotStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/SendFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/SocketHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Alpha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Canvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/CanvasOp$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/CanvasOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Fill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Grid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Polygon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Polyline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Rotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Scale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Spline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Stroke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/StrokeWidth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/canvas/Translate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/ConstantProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/ValueProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/reflection/ArrayProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/reflection/FieldProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/reflection/ReflectionConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/reflection/ReflectionConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/BasicVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/ConfigVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/ConfigVariableSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/CustomVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/config/variable/VariableType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/MessageDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/MessageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/GetConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/GetRobotStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/InitOpMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState$Gamepad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveOpModeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveRobotStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/ReceiveTelemetry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/SaveConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/StartOpMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/message/redux/StopOpMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/classes/java/main/com/acmerobotics/dashboard/telemetry/TelemetryPacket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/libs/DashboardCore-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/build/libs/DashboardCore-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/CustomVariableConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/DashboardCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/DashboardCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/Mutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/Mutex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/RobotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/RobotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/SendFun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/SocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/SocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Alpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Alpha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/CanvasOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/CanvasOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Fill.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Fill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Polyline.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Polyline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Rotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Rotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Scale.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Scale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Spline.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Spline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Stroke.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Stroke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/StrokeWidth.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/StrokeWidth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/canvas/Translate.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/canvas/Translate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/ConstantProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/ConstantProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/ValueProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/ValueProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/reflection/ArrayProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/reflection/ArrayProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/reflection/FieldProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/reflection/FieldProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/reflection/ReflectionConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/reflection/ReflectionConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/variable/BasicVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/variable/BasicVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/variable/ConfigVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/variable/ConfigVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/variable/ConfigVariableDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/variable/ConfigVariableSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/variable/ConfigVariableSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/variable/CustomVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/variable/CustomVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/config/variable/VariableType.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/config/variable/VariableType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/MessageDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/MessageDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/MessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/GetConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/GetRobotStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/InitOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/InitOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/ReceiveConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/ReceiveConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/ReceiveGamepadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/ReceiveImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/ReceiveImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/ReceiveOpModeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/ReceiveOpModeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/ReceiveRobotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/ReceiveRobotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/ReceiveTelemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/ReceiveTelemetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/SaveConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/message/redux/SaveConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/StartOpMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/message/redux/StopOpMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/main/java/com/acmerobotics/dashboard/telemetry/TelemetryPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/main/java/com/cuttlefish/dashboard/telemetry/TelemetryPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/Orbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/Orbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/Orbit2.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/Orbit2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/Orbit3.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/Orbit3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/OrbitOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/OrbitOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/SerializationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/SerializationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/TestDashboardInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/TestDashboardInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/TestFieldVersatilityOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/TestFieldVersatilityOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/TestSineWaveOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/TestSineWaveOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/testopmode/TestOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/testopmode/TestOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DashboardCore/src/test/java/com/acmerobotics/dashboard/testopmode/TestOpModeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/DashboardCore/src/test/java/com/cuttlefish/dashboard/testopmode/TestOpModeManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FtcDashboard/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FtcDashboard/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcDashboard/dash/node_modules/object.assign/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/FtcDashboard/dash/node_modules/object.assign/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcDashboard/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcDashboard/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcDashboard/src/main/java/com/acmerobotics/dashboard/FtcDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcDashboard/src/main/java/com/cuttlefish/dashboard/FtcDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcDashboard/src/main/java/com/acmerobotics/dashboard/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcDashboard/src/main/java/com/cuttlefish/dashboard/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcDashboard/src/main/java/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcDashboard/src/main/java/com/cuttlefish/dashboard/telemetry/MultipleTelemetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/ArrayTestOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/ArrayTestOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/FieldVersatilityOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/FieldVersatilityOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/FilteredLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/FilteredLogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/GamepadTestOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/GamepadTestOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/ImageOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/ImageOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OrbitOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OrbitOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SampleConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SampleConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SineWaveOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SineWaveOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/VisionPortalStreamingOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/VisionPortalStreamingOpMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/CustomVariableConsumer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/CustomVariableConsumer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/DashboardCore.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/DashboardCore.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/DashboardWebSocket.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/DashboardWebSocket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/DashboardWebSocketServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/DashboardWebSocketServer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/FtcDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/FtcDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/Mutex.Fun.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/Mutex.Fun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/Mutex.UnitFun.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/Mutex.UnitFun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/Mutex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/Mutex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/RobotStatus.OpModeStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/RobotStatus.OpModeStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/RobotStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/RobotStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SendFun.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SendFun.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SerializationTests.NullVariables.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SerializationTests.NullVariables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SerializationTests.Pair.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SerializationTests.Pair.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SerializationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SerializationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SocketHandler.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/SocketHandler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/TestDashboardInstance.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/TestDashboardInstance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/TestServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/TestServer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/TestSineWaveOpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/TestSineWaveOpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Alpha.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Alpha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Canvas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/CanvasOp.Type.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/CanvasOp.Type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/CanvasOp.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/CanvasOp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Circle.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Circle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Fill.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Fill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Image.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Polygon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Polygon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Polyline.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Polyline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Rotation.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Rotation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Scale.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Scale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Spline.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Spline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Stroke.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Stroke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/StrokeWidth.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/StrokeWidth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Text.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Translate.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/Translate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/canvas/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/Config.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/Config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/ConstantProvider.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/ConstantProvider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/ValueProvider.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/ValueProvider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/ClasspathScanner.Callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/ClasspathScanner.Callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/ClasspathScanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/ClasspathScanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/FieldProvider.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/FieldProvider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/ReflectionConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/ReflectionConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/reflection/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/BasicVariable.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/BasicVariable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/ConfigVariable.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/ConfigVariable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/ConfigVariableDeserializer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/ConfigVariableSerializer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/ConfigVariableSerializer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/CustomVariable.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/CustomVariable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/VariableType.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/VariableType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/config/variable/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/Message.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/Message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/MessageDeserializer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/MessageDeserializer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/MessageType.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/MessageType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/GetConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/GetConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/GetRobotStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/GetRobotStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/InitOpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/InitOpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.Gamepad.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.Gamepad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveGamepadState.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveImage.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveImage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveOpModeList.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveOpModeList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveRobotStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveRobotStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveTelemetry.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/ReceiveTelemetry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/SaveConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/SaveConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/StartOpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/StartOpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/StopOpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/StopOpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/message/redux/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.MultipleItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.MultipleItem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.MultipleLine.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.MultipleLine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.MultipleLog.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.MultipleLog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/MultipleTelemetry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/TelemetryPacket.Adapter.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/TelemetryPacket.Adapter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/TelemetryPacket.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/TelemetryPacket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/telemetry/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/TestOpMode.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/TestOpMode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/TestOpModeManager.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/TestOpModeManager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/com/acmerobotics/dashboard/testopmode/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-21.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-21.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/javadoc/overview-tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +396,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aaditnoronha/Developer/Robotics/new-ftc-dashboard&quot;,
-    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/aaditnoronha/Developer/Robotics/new-ftc-dashboard/FtcDashboard/src/main/java",
+    "show.do.not.copy.http.proxy.settings.to.gradle": "false"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FtcDashboard/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cuttlefish.dashboard" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="new-ftc-dashboard.TeamCode.main" />
