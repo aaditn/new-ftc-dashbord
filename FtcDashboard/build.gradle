@@ -51,7 +51,7 @@ task copyDashAssets(type: Copy) {
 }
 
 copyDashAssets.dependsOn cleanDashAssets
-copyDashAssets.dependsOn yarn_build
+//copyDashAssets.dependsOn yarn_build
 
 android.libraryVariants.all { variant ->
     variant.preBuildProvider.get().dependsOn copyDashAssets
